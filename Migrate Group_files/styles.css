@@ -1024,9 +1024,9 @@ section {
     .hero-section .hero-circle {
         position: absolute;
         width: 48%;
-        height: 105%;
+        /* height: 60%; */
         left: -3%;
-        top: -7%;
+        /* top: -7%; */
         z-index: 0;
     }
 
