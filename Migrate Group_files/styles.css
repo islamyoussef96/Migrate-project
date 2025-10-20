@@ -35,6 +35,12 @@ html {
     position: relative;
 }
 
+.custom-container-navigating{
+        max-height: 100vh;
+    scroll-margin-top: 0;
+    position: relative;
+}
+
 .inner-container {
     display: flex;
     justify-content: space-between;
