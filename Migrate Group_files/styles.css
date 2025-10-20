@@ -9,15 +9,15 @@ body {
 }
 
 :root {
-  --animate-duration: 800ms;
-  --animate-delay: 20s;
+  /* --animate-duration: 800ms; */
+  /* --animate-delay: 20s; */
 }
-
+/* 
 .zoomEffect {
     animation: zoomEffect 2s infinite ease-in-out;
     transform-origin: center;
     transform-box: fill-box;
-}
+} */
 @keyframes zoomEffect {
       0%   { transform: scale(1); }
       50%  { transform: scale(1.5); }
