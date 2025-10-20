@@ -36,7 +36,7 @@ html {
 }
 
 .custom-container-navigating{
-        max-height: 100vh;
+        height: auto;
     scroll-margin-top: 0;
     position: relative;
 }
@@ -230,8 +230,8 @@ section img.img-fluid {
 .histogram-video {
     border: none;
     background: #fff;
-    width: 100%;
-    height: 40%;
+    width: 80%;
+    height: 30%;
 }
 
 .footer-migrate {
@@ -503,7 +503,7 @@ section {
 }
 
 .migrate-connect-img-wrapper {
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .migrate-connect-img {
