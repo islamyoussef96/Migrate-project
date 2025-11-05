@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const listItems = document.querySelectorAll("#whyUsList .why-us-points");
 
   listItems.forEach((item, index) => {
-	const delay = (index * 1.5); // 1s, 2s, 3s...
+	const delay = (index * 0); // 1s, 2s, 3s...
 
 	gsap.from(item, {
       scrollTrigger: {
@@ -36,21 +36,21 @@ document.addEventListener("DOMContentLoaded", function () {
   const icons = Array.from(document.querySelectorAll("#iconColumn img"));
 
   icons.forEach((icon, index) => {
-    const delay = index + 1; 
+    const delay = index + 0; 
 
-    gsap.from(icon, {
-      scrollTrigger: {
-        trigger: "#iconColumn",
-        start: "top 80%", 
-        toggleActions: "play none none none"
-      },
-      y: -200,  
-      opacity: 0,
-      duration: 1.2,
-      delay: delay,
-      ease: "back.out(1.7)"
-    });
-  });
+  //   gsap.from(icon, {
+  //     scrollTrigger: {
+  //       trigger: "#iconColumn",
+  //       start: "top 80%", 
+  //       toggleActions: "play none none none"
+  //     },
+  //     y: -200,  
+  //     opacity: 0,
+  //     duration: 0 ,
+  //     delay: delay,
+  //     ease: "back.out(0)"
+  //   });
+  // });
  
 
   const subscribeBtn = document.querySelector('.btn-migrate[href="#contact"]');
@@ -167,15 +167,15 @@ const sectionGroups = Array.from({ length: 8 }, (_, i) =>
   })
   .to(sectionGroups, {
     opacity: 1,
-    duration: 0.8,
+    duration: 0,
     ease: "power2.out",
-    stagger: 0.8, // sections appear one by one
+    stagger: 0, // sections appear one by one
   })
   .to(circleGroups, {
     opacity: 1,
-    duration: 0.8,
+    duration: 0,
     ease: "power2.out",
-    stagger: 0.5, // circle 2 first
+    stagger: 0, // circle 2 first
   }, "+=0.2");                        
 
 
@@ -315,6 +315,5 @@ const observer = new IntersectionObserver(
 document.querySelectorAll("section").forEach((el) => observer.observe(el));
 
 
-
-
 });
+    });
