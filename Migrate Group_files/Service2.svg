@@ -48,11 +48,11 @@
         <tspan x="400"  dy="0">Team &amp; Talent</tspan>
     <tspan x="403" y="325" dy="9.14">Identification</tspan>
     </text>
-    <text style="opacity: 0; transition: opacity 0.5s; white-space: pre;" x="380" y="310" font-size="8.5" font-weight="800" font-family="Verdana" fill="#2B7A81" id="migrate_section_6_hover">
+    <text style="opacity: 0; transition: opacity 0.5s; white-space: pre;" x="380" y="310" font-size="8" font-weight="800" font-family="Verdana" fill="#2B7A81" id="migrate_section_6_hover">
     <tspan x="385" dy="0">Tap into a wide pool of</tspan>
     <tspan x="390" dy="9.14">vetted talent to help</tspan>
     <tspan x="392" dy="9.14">your agency thrive in</tspan>
-    <tspan x="380" dy="9.14">new markets</tspan>
+    <tspan x="400" dy="9.14">new markets</tspan>
 </text>
     <circle cx="432.431" cy="383.49" r="16.2866" fill="#51C1AE"/>
   </g>
