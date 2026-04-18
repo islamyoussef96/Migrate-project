@@ -566,6 +566,125 @@ section {
     z-index: 0;
 }
 
+.section-campaign {
+    background: #f8faf7;
+}
+
+.campaign-intro {
+    position: sticky;
+    top: 110px;
+}
+
+.campaign-highlights {
+    display: grid;
+    gap: 1rem;
+}
+
+.campaign-highlight-card,
+.campaign-week-card,
+.campaign-support-item {
+    background: #fff;
+    border: 1px solid rgba(0, 98, 105, 0.12);
+    border-radius: 24px;
+    box-shadow: 0 12px 32px rgba(0, 98, 105, 0.06);
+}
+
+.campaign-highlight-card {
+    padding: 1rem 1.25rem;
+}
+
+.campaign-highlight-label,
+.campaign-week-label,
+.campaign-support-title {
+    display: inline-flex;
+    align-items: center;
+    font-family: verdana-bold;
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #006269;
+}
+
+.campaign-weeks {
+    align-items: stretch;
+}
+
+.campaign-week-card {
+    padding: 1.5rem;
+    height: 100%;
+}
+
+.campaign-week-header {
+    margin-bottom: 1.25rem;
+}
+
+.campaign-week-title {
+    font-size: 1.8rem;
+    color: #006269;
+    margin: 0.4rem 0;
+}
+
+.campaign-week-goal {
+    display: inline-flex;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    background: rgba(187, 213, 70, 0.18);
+    color: #006269;
+    font-family: verdana;
+    font-size: 0.9rem;
+}
+
+.campaign-item-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.campaign-item {
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 98, 105, 0.1);
+}
+
+.campaign-item:first-child {
+    padding-top: 0;
+    border-top: none;
+}
+
+.campaign-day,
+.campaign-type {
+    display: inline-flex;
+    font-family: verdana-bold;
+    font-size: 0.85rem;
+    color: #bbd546;
+    margin-right: 0.5rem;
+}
+
+.campaign-type {
+    color: #006269;
+}
+
+.campaign-item h4 {
+    font-size: 1.15rem;
+    color: #006269;
+    margin: 0.5rem 0;
+}
+
+.campaign-item p,
+.campaign-highlight-card p,
+.campaign-support-item p {
+    color: #3f6062;
+    margin-bottom: 0;
+}
+
+.campaign-support-strip {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.campaign-support-item {
+    padding: 1.25rem 1.5rem;
+}
+
 .section-contact .contact-birds {
     position: absolute;
     width: 36%;
@@ -1358,4 +1477,14 @@ section {
 .for-brands-main-img {
     max-width: 90%;
     height: auto;
+}
+
+@media (max-width: 991px) {
+    .campaign-intro {
+        position: static;
+    }
+
+    .campaign-support-strip {
+        grid-template-columns: 1fr;
+    }
 }
